@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MAN HINH INTERT KHONG TUONG MINH"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF59"
+        android:padding="10px">
+
+        <RadioButton
+            android:id="@+id/goidien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gọi điện"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/guitinnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhan tin"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/hienthiweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiển thị web"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/searchweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tìm kiếm web"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/nhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nhạc"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ảnh"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/Camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Máy ảnh"></RadioButton>
+    </RadioGroup>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imv"
+        />
+</LinearLayout>

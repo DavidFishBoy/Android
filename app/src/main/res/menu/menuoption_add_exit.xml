@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Hai item này có thể hiện trực tiếp nếu đủ chỗ -->
+    <item
+        android:id="@+id/addpro"
+        android:title="Thêm"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:title="Tìm kiếm"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom" />
+
+    <!-- Các item này SẼ nằm trong menu 3 chấm -->
+    <item
+        android:id="@+id/suapro"
+        android:title="Sửa sản phẩm"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/xoapro"
+        android:title="Xóa sản phẩm"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/showall"
+        android:title="Hiện tất cả"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/call"
+        android:title="Gọi điện"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/truyendata"
+        android:title="Truyền dữ liệu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/thoatungdung"
+        android:title="Thoát"
+        app:showAsAction="never" />
+
+</menu>
